@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div id="computer">
+      <div id="screen">
+        <p id="error"></p>
+        <div id="header">
+          <img src="" alt="logo" draggable="false"/>
+          <p></p>
+        </div>
+        <div id="content">
+          <div id="login">
+            <form type="login" class="nospace">
+              <input placeholder="Kode" type="password"/>
+            </form>
+          </div>
+          <div id="start">
+            <ul class="block">
+              <li class="header">
+              	<h1>NUMMERPLADE</h1>
+              	<form type="car">
+              	  <input placeholder="PDDDDDD"/>
+              	</form>
+              	<a href="#!" class="search"><i class="material-icons">directions_car</i></a>
+              </li>
+              <div id="car-content">
+
+              </div>
+            </ul>
+            <ul class="block">
+              <li class="header">
+              	<h1>CPR-NUMMER</h1>
+              	<form type="person">
+              	  <input placeholder="DDDDDD"/>
+              	</form>
+              	<a href="#!" class="search"><i class="material-icons">person</i></a>
+              </li>
+              <div id="person-content">
+
+              </div>
+            </ul>
+            <div class="block block-buttons">
+              <a href="#!" class="waves-effect btn-flat" page="efterlys">EFTERLYSNINGER</a>
+              <a href="#!" class="waves-effect btn-flat" page="regelverk">REGULATIONER</a>
+              <a href="#!" class="waves-effect btn-flat" page="incidenter">HÆNDELSER</a>
+              <a href="#!" class="waves-effect btn-flat" page="betjente">BETJENTE</a>
+              <a href="#!" class="waves-effect btn-flat" class="admin" page="admin">LOGS</a>
+            </div>
+          </div>
+          <div id="admin" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>LOGS</h1>
+            <hr />
+            <table>
+              <thead>
+                <tr>
+                  <td>TYPE</td>
+                  <td>FJERNET AF</td>
+                  <td>ID</td>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </div>
+          <div id="betjente" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>BETJENTE</h1>
+            <hr />
+            <table>
+              <thead>
+                <tr>
+                  <td>BETJENT</td>
+                  <td>SIDSTE LOGIN</td>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </div>
+          <div id="car" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>BIL INFORMATION</h1>
+            <hr />
+            <form type="new-car">
+              <input id="new-car" placeholder="Note"/>
+            </form>
+            <a href="#!" class="button" id="add-car-info">TILFØJ</a>
+            <table>
+              <tbody>
+                <tr>
+                  <td>EJER:</td>
+                  <td><a href="#!" id="car-owner" class="user" type="car">LOADER..</a></td>
+                </tr>
+                <tr>
+                  <td>NOTER:</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul id="car-comments">
+
+            </ul>
+          </div>
+          <div id="person" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>PERSONLIG INFORMATION</h1>
+            <hr />
+            <img id="personImg" src="assets/images/user.png" alt="IMG" draggable="false"/>
+            <table>
+              <tbody>
+                <tr>
+                  <td>NAVN:</td>
+                  <td id="person-name">LOADER..</td>
+                </tr>
+                <tr>
+                  <td>CPR-NUMMER:</td>
+                  <td id="person-personnummer">LOADER..</td>
+                </tr>
+                <tr>
+                  <td>ALDER:</td>
+                  <td id="person-sex">LOADER..</td>
+                </tr>
+                <tr>
+                  <td>TELEFON NUMMER:</td>
+                  <td id="person-phone">LOADER..</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul id="person-brottsregister">
+              <h4>KRIMINELREGISTER:</h4>
+            </ul>
+            <ul id="person-incident">
+              <h4>EFTERLYST: <b></b><a href="#!" class="remove" dob="" type="efterlysning" title="Ta bort"><i class="material-icons">remove_circle_outline</i></a></h4>
+              <li><a href="#!" class="inc-link"></a></li>
+            </ul>
+          </div>
+          <div id="efterlys" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>EFTERLYST</h1>
+            <hr />
+            <form id="efterlys-form">
+              <div class="input-block">
+                <h1>NAVN</h1>
+                <input placeholder="Peter" id="efterlys-firstname" required/>
+              </div>
+              <div class="input-block">
+                <h1>EFTERNAVN</h1>
+                <input placeholder="Hansen" id="efterlys-lastname" required/>
+              </div>
+              <div class="input-block">
+                <h1>CPR-NUMMER</h1>
+                <input placeholder="DDDDDD" id="efterlys-personnummer" required/>
+              </div>
+              <div class="input-block">
+                <h1>GRUND</h1>
+                <input placeholder="Mord, tyveri..." id="efterlys-crime" required/>
+              </div>
+              <div class="input-block">
+                <h1>HÆNDELSE-NR</h1>
+                <input placeholder="HÆNDELSES NUMMER" id="efterlys-incident" required/>
+              </div>
+              <button id="efterlys-submit" class="waves-effect btn-flat">TILFØJ</button>
+            </form>
+            <hr />
+            <ul>
+              <p class="title">Efterlyst:</p>
+              <div id="efterlys-content">
+
+              </div>
+            </ul>
+          </div>
+          <div id="regelverk" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>REGULATIONER</h1>
+            <hr />
+            <ul>
+
+            </ul>
+          </div>
+          <div id="incidenter" class="info">
+            <a href="#!" class="close"><i class="material-icons">close</i></a>
+            <h1>HÆNDELSER</h1>
+            <hr />
+            <form class="nospace" type="incident">
+              <input placeholder="HÆNDELSES NUMMER"/>
+            </form>
+            <a href="#!" class="button waves-effect" id="incident-search">ÅBEN</a>
+            <div id="incident-a">
+              <form>
+                <textarea id="incident-text" required></textarea>
+              </form>
+              <a href="#!" class="button button-large waves-effect" id="incident-add">TILFØJ</a>
+              <ul>
+
+              </ul>
+            </div>
+            <div id="incident">
+              <h4 class="title"></h4>
+              <a href="#!" class="remove no" title="Ta bort" type="incident" inc-numb=""><i class="material-icons">remove_circle_outline</i></a>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/regelverk.js" type="text/javascript"></script>
+    <script src="assets/js/passwords.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>

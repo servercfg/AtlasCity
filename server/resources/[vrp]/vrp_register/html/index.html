@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="wrapper" class="center col s12">
+          <div class="row">
+            <div class="inner jleft">
+              <img src="assets/images/left.png"/>
+            </div>
+            <div class="inner jright">
+              <form>
+                <div class="input-field">
+                  <input id="firstname" name="firstname" placeholder = "" type="text" oninput="check(this)" required>
+                  <label for="firstname">Fornavn</label>
+                </div>
+                <div class="input-field">
+                  <input id="lastname" placeholder = "" type="text" oninput="check(this)" required>
+                  <label for="lastname">Efternavn</label>
+                </div>
+                <div class="input-field">
+                  <input id="dateofbirth" placeholder = "" type="number" min="10" max="99" pattern="[0-9]{2}" oninput="check(this)" required>
+                  <label for="dateofbirth">Alder</label>
+                </div>
+                <button id="register" class="btn btn-large waves-effect">register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>

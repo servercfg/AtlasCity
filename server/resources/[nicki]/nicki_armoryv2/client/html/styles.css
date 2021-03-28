@@ -1,0 +1,196 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.full-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  width: 350px;
+  height: 250px;
+  background: rgba(19, 19, 19, 0.685);
+  overflow: hidden;
+  padding-top: 30px;
+  display: none;
+  border: 1px solid #0084ff;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pistol {
+	width: 90%;
+   height: 60px;
+    margin-left: 5%;
+	  margin-right: 5%;
+    background: rgba(0, 0, 0, 0.685);
+    border: 4px outset #0084ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 76px;
+    text-decoration:none;
+}
+
+.pistol:hover {
+  color: white;
+  background-color: #0084ff;
+  border: 3px solid #0084ff;
+}
+
+.smg {
+	width: 90%;
+  height: 60px;
+    margin-left: 5%;
+	margin-right: 5%;
+  background: rgba(0, 0, 0, 0.685);
+  border: 4px outset #0084ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 76px;
+    text-decoration:none;
+}
+
+.smg:hover {
+  color: white;
+  background-color: #0084ff;
+  border: 3px solid #0084ff;
+}
+
+.carbine {
+	width: 90%;
+  height: 60px;
+    margin-left: 5%;
+	  margin-right: 5%;
+    background: rgba(0, 0, 0, 0.685);
+    border: 4px outset #0084ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 76px;
+    text-decoration:none;
+}
+
+.carbine:hover {
+  color: white;
+  background-color: #0084ff;
+  border: 3px solid #0084ff;
+}
+
+.tazer {
+	width: 90%;
+  height: 60px;
+    margin-left: 5%;
+	  margin-right: 5%;
+    background: rgba(0, 0, 0, 0.685);
+    border: 4px outset #0084ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 76px;
+    text-decoration:none;
+}
+
+.tazer:hover {
+  color: white;
+  background-color: #0084ff;
+  border: 3px solid #0084ff;
+}
+
+.stav {
+	width: 90%;
+  height: 60px;
+    margin-left: 5%;
+	  margin-right: 5%;
+    background: rgba(0, 0, 0, 0.685); 
+    border: 4px outset #0084ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 76px;
+    text-decoration:none;
+}
+
+.stav:hover {
+  color: white;
+  background-color: #0084ff;
+  border: 3px solid #0084ff;
+}
+
+.text {
+  margin-top: -50px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:none;
+  color: white;
+}
+.text2 {
+  margin-top: -35px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+  color: black;
+}

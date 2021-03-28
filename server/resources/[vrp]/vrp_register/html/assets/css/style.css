@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+#wrapper {
+  display: none;
+  margin-top: 120px;
+  margin-left: 190px;
+}
+.inner {
+  float: left;
+  display: inline-block;
+  width: 442px;
+  height: 672px;
+}
+.jleft {
+  background: url("../images/left.png");
+}
+.jright {
+  background: url("../images/right.png");
+}
+form {
+  width: 390px;
+  padding: 80px 20px 20px 20px;
+}
+.input-field input, .select-wrapper input {
+  color: #ffffff !important;
+}
+#register {
+  width: 100%;
+  background: #392c34 !important;
+}
+.caret {
+  display: none;
+}
+.dropdown-content {
+  top: 0 !important;
+}
+.select-wrapper li {
+  background: #b5a795 !important;
+}
+.select-wrapper li span {
+  color: #ffffff !important;
+}
+.select-wrapper .disabled {
+  background: #897d6e !important;
+}
+.select-wrapper .selected {
+  background: #d6c7b3 !important;
+}
+.datepicker-date-display {
+  background: #ffffff;
+}
+.datepicker-container button {
+  color: #ffffff;
+}
+.datepicker-container button:focus {
+  background: #ffffff;
+}
+.datepicker-container .is-selected {
+  background: #ffffff !important;
+}
+.dropdown-content li > a, .dropdown-content li > span  {
+  color: #ffffff !important;
+}
+.datepicker-container input {
+  color: #ffffff !important;
+}
+label {
+ color: #ffffff !important;
+ text-shadow: -1px 0 rgba(0, 0, 0, 0.2), 0 1px rgba(0, 0, 0, 0.2), 1px 0 rgba(0, 0, 0, 0.2), 0 -1px rgba(0, 0, 0, 0.2);
+ font-size: 20px;
+}
+.input-field input[type=text] {
+ color: #bbb272 !important;
+ border-bottom: 1px solid #ffffff !important;
+ box-shadow: 0 1px 0 0 #ffffff !important;
+}
+.input-field input[type=number] {
+  color: #bbb272 !important;
+  border-bottom: 1px solid #ffffff !important;
+  box-shadow: 0 1px 0 0 #ffffff !important;
+ }
+.input-field input[type=text]:focus + label {
+ color: #ffffff !important;
+}
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #ffffff !important;
+ box-shadow: 0 1px 0 0 #ffffff !important;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 100% !important;
+  }
+}

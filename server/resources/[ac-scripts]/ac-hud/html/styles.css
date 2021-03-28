@@ -1,0 +1,220 @@
+#statusHud {
+	width: 14.25%;
+	position: absolute;
+	bottom: 0.5%;
+    left: 1.5%;
+	/* border: 1px solid red; */
+}
+#statusvoice {
+	width: 14.25%;
+	position: absolute;
+	bottom: 0.5%;
+    left: 15.29%;
+	/* border: 1px solid red; */
+}
+
+#varHealth {
+	width: calc(25% - 2px - 4px);
+	margin-left: 0px !important;
+} 
+#varArmor {
+	width: calc(25% - 4px - 4px);
+
+}
+#varHealth > .barIcon,
+#varArmor > .barIcon {
+	width: 10%;
+}
+#varStress {
+	margin-right: 0px !important;
+}
+
+#varHealth > #boxSetHealth {
+	background: rgb(59, 177, 116, 1);
+}
+#varArmor > #boxSetArmour {
+	background: rgb(66, 137, 255, 1);
+}
+
+#varHunger > #boxSetHunger {
+	background: rgb(210, 155, 67);
+}
+
+#varThirst > #boxSetThirst {
+	background: rgb(80, 125, 181);
+}
+
+#varOxygen > #boxSetOxygen {
+	background: rgb(76, 91, 117);
+}
+
+#varStamina > #boxSetStamina {
+	background: rgb(236, 179, 56)
+}
+
+#varStress > #boxSetStress {
+	background: rgb(192, 59, 59);
+}
+#varVoice > #boxSetVoice {
+	background: #fcf8f3 ;
+	/* background-image: linear-gradient(to bottom, #fcf8f3 0%,#fcf8f3 30%, transparent 30% , transparent 45% , #fcf8f3 45%, #fcf8f3 70%, transparent 70% , transparent 80%, #fcf8f3 80%,#fcf8f3 100%);  */
+}
+
+#boxSetVoice.active {
+    background: #02a8a8;
+}
+
+.bar {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 9.9%;
+	height: 25.5px;
+	float: left;
+
+	/* padding: 2px; */
+	border: 2px solid rgba(65,65,65,0.9);
+	/* margin-right: 0.9px; */
+    margin-left: 3.4px;
+    z-index: 98;
+}
+.barvoice {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 2%;
+	height: 25.5px;
+	float: left;
+
+	/* padding: 2px; */
+	border: 2px solid rgba(65,65,65,0.5);
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst, #boxSetOxygen, #boxSetStress, #boxSetStamina {
+	width: 100%;
+	height: 25.5px;
+	background: rgba(110, 110, 110, 0.5);
+	position: relative;
+	bottom: 0;
+	z-index: 97;
+}
+
+.barStamina {
+	width: calc(12.5% - 2px - 2px);
+	height: 15.5px; /*21.0 is max image size without box resizing*/
+	padding-top: 5px; /*default = 5 */
+	padding-left: 1px; /*default = 5 */
+	position: absolute;
+	margin-left: -6px;
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+.barWater {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 5px;
+	padding-left: 1px; /*default = 5 */
+	position: absolute;
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+.barIcon {
+	width: calc(12.5% - 4px - 4px);
+	height: 15.5px;
+	padding-top: 5px;
+	position: absolute;
+	z-index: 99;
+	/* padding: 5px; */
+}
+
+.car {
+    display: none;
+}
+
+.speed, .gas, .measurement-val {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 60px;
+    position: absolute;
+    bottom: 4.5%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.speed {
+    left: 16.4%;
+}
+
+.measurement-val {
+    left: 18.90%;
+}
+
+.gas {
+    left: 21.5%;
+}
+
+.fuel-val, .speed-val {
+    color: rgb(114, 204, 114);
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    font-size: 125% !important;
+}
+
+.fuel-val.low, .speed-val.fast {
+    color: rgb(224, 50, 50);
+}
+
+.seatbelt{
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 15px;
+    position: absolute;
+    bottom: 4.5%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+.clock {
+	left: 16.4%;
+	font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 15px;
+    position: absolute;
+    bottom: 7.3%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.seatbelt {
+    left: 26.8%;
+}
+
+
+.clock {
+    color: rgb(255, 255, 255);
+}
+
+.ampm {
+    color: rgb(240, 200, 80);
+}
+
+.seatbelt.on {
+    color: rgb(114, 204, 114);
+}
+
+.seatbelt.off {
+    color: rgb(224, 50, 50);
+}
+
+.position {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 22px;
+    position: absolute;
+    bottom: 1.55%;
+    left: 16.4%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+}
+
+.seperator {
+    color: rgb(224, 50, 50);
+}
+
+.seperator2 {
+    color: rgb(240, 200, 80);
+}

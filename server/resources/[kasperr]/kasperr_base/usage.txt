@@ -1,0 +1,31 @@
+Client:
+
+kasperr = nil
+
+Citizen.CreateThread(function()
+	while kasperr == nil do
+		TriggerEvent('kasperr_base:getBaseObjects', function(obj) kasperr = obj end)
+		Citizen.Wait(0)
+	end
+end)
+
+RegisterCommand(
+  "dab",
+  function(source, args)
+    print("Waiting for dab...")
+    kasperr.TriggerServerCallback('kasperr:dab123', function(res)
+      print("Dabber på: " .. res)
+    end)
+  end
+)
+
+----------------------------------------------------------------------------------
+Server: 
+
+kasperr = nil
+
+TriggerEvent('kasperr_base:getBaseObjects', function(obj) kasperr = obj end)
+
+kasperr.RegisterServerCallback('kasperr:dab123', function (source, cb)
+	cb("Taco")
+end)

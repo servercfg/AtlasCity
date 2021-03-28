@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZNOWY'S SANDKASSE</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+</head>
+<body>
+    <v-app id="ZnowY">
+        <v-content>
+            <div id="ZnowY_SelectUIs" v-show="showUI">
+                <div class="container">          
+                        <button type="button" class="btnsøg" @click="Choose1()">Vask</button>
+                        <button type="button" class="btnsøg2" @click="Choose2()">Repair</button>
+                        <button type="button" class="btnsøg3" @click="Choose3()">Sort</button>
+                        <button type="button" class="btnsøg4" @click="Choose4()">Hvid</button>
+                        <button type="button" class="btnsøg5" @click="Choose5()">Rød</button>
+                        <button type="button" class="btnsøg6" @click="Choose6()">Blå</button>
+                        <button type="button" class="btnsøg7" @click="Choose7()">Grå</button>
+                        <button type="button" class="btnsøg8" @click="Choose8()">Grøn</button>
+                        <button type="button" class="btnsøg9" @click="Choose9()">Gul</button>
+                        <button class="btnClose" @click="CloseMenu()"><i class="fas fa-times fa-2x"></i></button>
+                    </div>
+                </div>
+            </div>
+        </v-content>
+    </v-app>
+    <script src="libraries/axios.min.js"></script>
+    <script src="libraries/vue.min.js"></script>
+    <script src="libraries/vuetify.js"></script>
+    <script src="script.js"></script>                 
+</body>
+</html>

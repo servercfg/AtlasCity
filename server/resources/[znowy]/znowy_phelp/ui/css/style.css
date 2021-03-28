@@ -1,0 +1,210 @@
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 25px;
+}
+
+.container{
+    width: 270px;
+    height: 500px;
+    background: rgba(36, 36, 36, 0.685);
+    border-radius: 2px;
+    border: 4px outset #ffffff;
+    position: relative;
+    left: 785px;
+    top: 110px;
+}
+    .btnsøg{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 10px 40px;
+    border: 3px outset #ffffff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: 455px;
+    left: 10px;
+}
+    .btnsøg2{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 10px 39px;
+    border: 3px outset #ffffff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: 455px;
+    left: 20px;
+}
+
+    .btnsøg3{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 15px 101px;
+    border: 3px outset #ffffff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: -15px;
+    left: 20px;
+    }
+
+    .btnsøg4{
+        background: rgba(36, 36, 36, 0.685);
+        font-size: 13px;
+        color: white;
+        padding: 15px 100px;
+        border: 3px outset #ffffff;
+        cursor: pointer;
+        outline: none;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+        top: -5px;
+        left: 20px;
+        }
+        .btnsøg5{
+            background: rgba(36, 36, 36, 0.685);
+            font-size: 13px;
+            color: white;
+            padding: 15px 100px;
+            border: 3px outset #ffffff;
+            cursor: pointer;
+            outline: none;
+            justify-content: space-between;
+            overflow: hidden;
+            position: relative;
+            top: 5px;
+            left: 20px;
+            }
+            .btnsøg6{
+                background: rgba(36, 36, 36, 0.685);
+                font-size: 13px;
+                color: white;
+                padding: 15px 102.5px;
+                border: 3px outset #ffffff;
+                cursor: pointer;
+                outline: none;
+                justify-content: space-between;
+                overflow: hidden;
+                position: relative;
+                top: 15px;
+                left: 20px;
+                }
+                .btnsøg7{
+                    background: rgba(36, 36, 36, 0.685);
+                    font-size: 13px;
+                    color: white;
+                    padding: 15px 101.5px;
+                    border: 3px outset #ffffff;
+                    cursor: pointer;
+                    outline: none;
+                    justify-content: space-between;
+                    overflow: hidden;
+                    position: relative;
+                    top: 25px;
+                    left: 20px;
+                    }
+                    .btnsøg8{
+                        background: rgba(36, 36, 36, 0.685);
+                        font-size: 13px;
+                        color: white;
+                        padding: 15px 98px;
+                        border: 3px outset #ffffff;
+                        cursor: pointer;
+                        outline: none;
+                        justify-content: space-between;
+                        overflow: hidden;
+                        position: relative;
+                        top: 35px;
+                        left: 20px;
+                        }.btnsøg9{
+                            background: rgba(36, 36, 36, 0.685);
+                            font-size: 13px;
+                            color: white;
+                            padding: 15px 103.5px;
+                            border: 3px outset #ffffff;
+                            cursor: pointer;
+                            outline: none;
+                            justify-content: space-between;
+                            overflow: hidden;
+                            position: relative;
+                            top: 45px;
+                            left: 20px;
+                            }
+    
+    .btnsøg:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+
+    .btnsøg2:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+
+    .btnsøg3:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+.btnsøg4:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+.btnsøg5:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+.btnsøg6:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+.btnsøg7:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+.btnsøg8:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+
+.btnsøg9:hover{
+    color: white;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+}
+  /* close */
+    .btnClose{
+        position: relative;
+        top: -353px;
+        left: 3px;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: transparent;
+        outline: none;
+        border: none;
+      }
+      
+        .btnClose:hover{
+        color: #ffffff;
+      }
+    
+

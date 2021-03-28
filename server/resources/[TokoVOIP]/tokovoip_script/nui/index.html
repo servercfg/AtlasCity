@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<style>
+			.tokovoipInfo {
+			position: absolute;
+			padding: 5px;
+			font-family: Arial;
+			font-weight: bold;
+			color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
+
+		.pluginScreen {
+			display: block;
+			position: absolute;
+			background-image: radial-gradient(rgb(23, 23, 23), rgb(0, 0, 0));
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		.pluginScreenWindow {
+			background: rgba(0, 0, 0, 0.5);
+			width: 350px;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+			top: 50%;
+			transform: translateY(-51%);
+			border-left: 2px solid #989898;
+			padding: 20px;
+			color: #eee;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			text-shadow: 1px 1px #000000;
+			font-weight: bold;
+		}
+
+		.talking {
+			color: rgba(244, 196, 65, 255);
+		}
+
+		.normal {
+			color: #01b0f0;
+		}
+
+		.copyrights {
+			padding: 5px;
+			padding-bottom: 0;
+			color: white;
+			opacity: 0.2;
+			font-size: 12px;
+		}
+
+		ul {
+			padding-inline-start: 27px;
+			margin-block-start: 6px;
+		}
+
+		#latency {
+			top: 80px;
+			position: absolute;
+			color: white;
+			font-size: 10px;
+			font-weight: 100;
+		}
+		</style>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="pluginScreen" class="pluginScreen">
+			<div id="pluginScreenWindow" class="pluginScreenWindow">
+				<div style="font-size:25px;color:#f0eb01;text-align:center;margin-bottom:20px;">
+					TokoVOIP
+				</div>
+				<font color="#01b0f0">TokoVOIP</font> er vores in-game snakke system ved hjælp af et specialfremstillet TS-plugin.
+
+				<br><br>
+
+				Det giver os meget flere <font color="green">muligheder</font>, som i øjeblikket tillader sådanne ting som:
+				<ul>
+					<li>Bedre stemmekvalitet</li>
+					<li>Radio system</li>
+					<li>Telefonopkald</li>
+				</ul>
+
+				<br>
+
+				<font color="#01b0f0">TokoVOIP</font> skal være <font color="red">installeret</font> og <font color="red">køre</font> for at spille på vores servere.
+				<br><br>
+				Hvis du har problemer kan du joine vores discord
+
+				<div id="TSServer">
+					TeamSpeak Server:
+				</div>
+				<div id="TSChannel">
+					TeamSpeak Kanal:
+				</div>
+				<br>
+				<div id="pluginStatus">
+					Plugin status:
+				</div>
+				<div id="pluginVersion">
+					Plugin version:
+				</div>
+				<div id="discord">
+					Discord: <font color="#01b0f0">https://discord.gg/t4HBpRv</font>
+				</div>
+				<div id="hjemmeside">
+					Hjemmeside: <font color="#01b0f0">https://sites.google.com/view/backside-roleplay/forside?</font>
+				</div>
+			</div>
+		</div>
+		<div id="tokovoipInfo" class="tokovoipInfo">
+		</div>
+	</body>
+</html>

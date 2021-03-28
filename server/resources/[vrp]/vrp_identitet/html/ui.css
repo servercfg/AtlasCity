@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab';
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 6.5%;
+    width: 13%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    animation: lateral 1s;
+}
+
+@keyframes lateral {
+    0% {
+        left: -5%;
+    }
+    100% {left: 6.5%;}
+}
+
+
+.section {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    padding-left: 15px;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 2px solid #137EF0;
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista-option {
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgba(19, 126, 240,0.8);
+    border-radius: 3px;
+    font-size: 1.8em;
+    color: whitesmoke;
+}
+
+.logo {
+    margin-right: 7px;
+    margin-bottom: -8px;
+    width: 20px;
+    height: 20px;
+}

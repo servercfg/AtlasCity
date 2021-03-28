@@ -1,0 +1,74 @@
+html {
+	color: #fff;
+}
+#wrap {
+	width: 400px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+    color: rgb(0, 162, 255);
+	opacity: 1;
+	border: 8px solid #232632;
+}
+table {
+	background-color: transparent;
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+}
+td {
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 10px;
+	font-family: 'Segoe Ui';
+}
+tr.bluebar {
+    background-color: rgb(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+}
+tr.redbar {
+	background-color: rgb(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+}
+tr.online {
+    background-color: #232632;
+    color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+	text-align: center;
+	height: 35px;
+}
+.bluebartext {
+	font-size: 15px;
+	padding-top: 17px;
+	padding-bottom: 2px;
+}
+.text {
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+td.job {
+	width: auto;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 1px;
+}
+tr.logo {
+	background-color: rgb(0, 0, 0, 0.5);
+}
+tr.header {
+	height: 20px;
+}
+td.header {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+tr.footer {
+	height: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> fg-inventory - by fnug </title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+</head>
+
+<body>
+    <script src="js/config.js"></script>
+    <script src="locales/en.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/inventory.js"></script>
+    <script>
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                clickOutside: true
+            });
+        });
+    </script>
+
+    <div id="used-item"></div>
+    <div id="added-item"></div>
+
+    <div class="ui">
+        <div class="inventory">
+            <div id="playerInventory">
+            </div>
+            <div id="controls">
+                
+                
+                <div class="controls-div">
+                    <input type='text' id='search' placeholder='SØG'>
+                    <input type="number" class="control con" max='99' min='0' id="count" value="1">
+                    <div class="control con" id="use">Brug</div>
+                    <div class="control con" id="give">Giv</div>
+                    <div class="control con" id="drop">Smid</div>
+                    <button class="control con" id="close" onclick="closeInventory()">Luk</button>
+                </div>
+            </div>
+            <div class="info-div"></div>
+            <div class="trunk-info-div"></div>
+            <div class="ply-info"></div>
+            
+            <div class="inv-log"></div>
+            <div id="item-information"></div>
+
+            <div class="ply-weight"></div>
+            <div class="second-weight"></div>
+            <div id="otherInventory">
+                
+                <div id="noSecondInventoryMessage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dialog">
+        <div id="nearPlayers">
+        </div>
+    </div>
+
+</body>
+
+</html>

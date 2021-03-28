@@ -1,0 +1,12 @@
+body{
+  background: transparent !important;
+}
+#horario h3{
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.8rem;
+  margin-top: 3rem !important;
+  margin-bottom: 0 !important;
+  color: white;
+  opacity: 0.8; 
+  text-shadow: 1px 1px #000000;
+}
